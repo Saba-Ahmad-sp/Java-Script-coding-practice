@@ -11,7 +11,7 @@ const p3 = new Promise((resolve, reject) => {
   setTimeout(() => resolve("p3 success"), 2000);
 });
 
-Promise.all([p1, p2, p3]).then((res) => {
+Promise.allSettled([p1, p2, p3]).then((res) => {
   console.log(res);
 }).catch((err) => {
   console.error(err)
