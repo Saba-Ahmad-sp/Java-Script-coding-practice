@@ -1,6 +1,6 @@
 const p1 = new Promise((resolve, reject) => {
   setTimeout(() => resolve("p1 success"), 3000);
-    // setTimeout(() => resolve("p2 success"), 3000);
+    // setTimeout(() => resolve("p1 Failed"), 3000);
 
 });
 
